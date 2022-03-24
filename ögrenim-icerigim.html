@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body a {
+        text-decoration: none;
+        color: black;
+      }
+      /* udemy-header */
+
+      .navbar {
+        border-bottom: 1px solid darkgray;
+        margin: 4px;
+        padding: 5px;
+        width: 100%;
+      }
+
+      .header {
+        margin: 5px;
+        padding: 5px;
+      }
+      .connect:hover {
+        color: #712b75;
+      }
+
+      .input-group a {
+        padding: 5px;
+        margin-top: 15px;
+      }
+      .search-form {
+        margin-left: 6px;
+      }
+
+      .a-udemy {
+        margin-left: 6px;
+        padding: 9px;
+      }
+      .icon div {
+        margin-left: 9px;
+      }
+      .icon .connect {
+        font-size: 20px;
+      }
+
+      .form-control {
+        border-radius: 16px;
+        width: 500px;
+      }
+
+      /* main-content */
+
+      .main-content {
+        margin-left: 48px;
+      }
+      .link-bar ul li {
+        display: inline-block;
+      }
+      .btn-white {
+        background-color: white;
+      }
+      .btn-white:hover {
+        background-color: #d1d7dc;
+      }
+      .btn-dark:hover {
+        background-color: transparent;
+      }
+      .container1 {
+        background-image: url(../udemy/img/bg-woman.jpg);
+        width: 100%;
+        height: 400px;
+      }
+      .billboard {
+        background-color: #fff;
+        margin: 5px;
+        margin-left: 80px;
+        margin-top: 40px;
+        padding: 6px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 35px;
+      }
+      .billboard h1,
+      p {
+        padding: 5px;
+      }
+      .maintontenth-first h5,
+      span {
+        padding: 8px;
+      }
+      .companenthh {
+        margin-left: 40px;
+      }
+      .companenthh h2 {
+        margin-left: 10px;
+      }
+      .companenth {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+
+        margin-left: 40px;
+      }
+
+      /* .but {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        border-radius: 0px;
+        border: 1px solid #d1d7dc;
+      }
+      .but:hover {
+        background-color: #d1d7dc;
+        border-radius: 0px;
+      } */
+      /* 
+      .a {
+        border: 1px solid #d1d7dc;
+        padding: 0.8rem 1.6rem;
+        color: #1c1d1f;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 100%;
+        min-height: 5.6rem;
+      } */
+
+      /* a {
+        border: 1px solid #d1d7dc;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      } */
+      .aa {
+        border: 1px solid #d1d7dc;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 1rem;
+      }
+
+      .lessona {
+        padding: 1rem;
+      }
+
+      /* footer */
+
+      /* .footer .row-2 {
+       display: flex;
+       justify-content: end;
+     } */
+
+      .footer {
+        height: 360px;
+      }
+
+      .footerfirst {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid lightgray;
+      }
+      /* .lessonb {
+       background-color: black;
+       color: #fff;
+     } */
+      .lessonb a {
+        background-color: black;
+        color: #fff;
+      }
+      .lessonb a:hover {
+        background-color: transparent;
+      }
+      .footersecond li {
+        list-style-type: none;
+        font-size: 14px;
+      }
+      .footersecond li a {
+        list-style-type: none;
+        color: #fff;
+      }
+      .footersecond li a:hover {
+        text-decoration: underline;
+        color: #fff;
+      }
+      .footerthird {
+        display: flex;
+        justify-content: space-between;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="udemy-header d-flex flex-row">
+      <div class="navbar" style="width: 100%">
+        <div class="header">
+          <a href="index.html">
+            <img
+              src="logo/udemy-logo.svg"
+              alt=""
+              style="width: 91px; height: 34px"
+            />
+          </a>
+        </div>
+        <div class="category">
+          <div class="input-group mb-3 d-flex flex-row">
+            <a href="#" class="connect">Kategoriler</a>
+            <!-- <ul class="dropdown-menu">
+              <li>
+                <a class="connect dropdown-item" href="#">Yazılım Geliştirme</a>
+              </li>
+              <li><a class="connect dropdown-item" href="#">İşletme</a></li>
+              <li>
+                <a class="connect dropdown-item" href="#">Finans ve Muhasebe</a>
+              </li>
+              <li>
+                <a class="connect dropdown-item" href="#">BT ve Yazılım</a>
+              </li>
+              <li>
+                <a class="connect dropdown-item" href="#">Ofiste Verimlilik</a>
+              </li>
+              <li>
+                <a class="connect dropdown-item" href="#">Kişisel Gelişim</a>
+              </li>
+              <li>
+                <a class="connect dropdown-item" href="#">Tasarım</a>
+              </li>
+              <li>
+                <a class="connect dropdown-item" href="#">Pazarlama</a>
+              </li>
+              <li>
+                <a class="connect dropdown-item" href="#">Yaşam Tarzı</a>
+              </li>
+              <li>
+                <a class="connect dropdown-item" href="#">Fotoğraf ve Video</a>
+              </li>
+              <li>
+                <a class="connect dropdown-item" href="#">Sağlık ve Fitness</a>
+              </li>
+              <li>
+                <a class="connect dropdown-item" href="#">Müzik</a>
+              </li>
+              <li>
+                <a class="connect dropdown-item" href="#">Öğretim ve Akademi</a>
+              </li>
+            </ul> -->
+          </div>
+        </div>
+
+        <div class="search-box d-flex flex-row">
+          <form action="" class="search-form">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Dilediginiz seyi arayin"
+            />
+          </form>
+        </div>
+
+        <div class="a-udemy d-flex flex-row">
+          <div class="mx-1"><a href="#" class="connect">Udemy Business</a></div>
+          <div class="mx-1">
+            <a href="#" class="connect">Udemy'de Eğitim Verin</a>
+          </div>
+          <div class="mx-1">
+            <a href="#" class="connect">Öğrenim İçeriğim</a>
+          </div>
+        </div>
+        <div class="icon d-flex flex-row">
+          <div>
+            <a href="#" class="connect"><i class="fa-solid fa-heart"></i></a>
+          </div>
+          <div>
+            <a href="#" class="connect"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></a>
+          </div>
+          <div>
+            <a href="#" class="connect"><i class="fa-solid fa-bell"></i></a>
+          </div>
+          <div>
+            <a href="" class="connect"><i class="fa-solid fa-circle-o"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- main -->
+    <section class="main">
+      <div class="main1"></div>
+      <div class="main2"></div>
+    </section>
+
+    <div class="footer bg-dark" style="color: #fff">
+      <div class="footerfirst d-flex">
+        <div class="row-10">
+          <div><h5 style="margin-left: 30px">Bilgilerinizi paylaşın</h5></div>
+          <div>
+            <p style="margin-left: 30px">
+              Online bir video kurs oluşturun, dünyanın dört bir yanından
+              öğrencilere ulaşın ve para kazanın
+            </p>
+          </div>
+        </div>
+        <div class="lessonb row-2" style="width: 239px; height: 25px">
+          <a href="#" class="aa" style="margin-top: 10px; margin-right: 10px"
+            ><h6>Udemy'de Eğitim Verin</h6></a
+          >
+        </div>
+      </div>
+      <div class="footersecond">
+        <div class="secondrow row" style="margin-top: 30px">
+          <div class="srowcol col-3">
+            <ul>
+              <li><a href="">Udemy Business</a></li>
+              <li><a href="">Udemy'de Eğitim Verin</a></li>
+              <li><a href=""> Uygulamayı Edinin</a></li>
+              <li><a href=""> Hakkımızda</a></li>
+              <li><a href=""> İletişim </a></li>
+            </ul>
+          </div>
+          <div class="srowcol col-3">
+            <ul>
+              <li><a href=""> Kariyer </a></li>
+              <li><a href=""> Blog </a></li>
+              <li><a href=""> Yardım ve Destek</a></li>
+              <li><a href=""> İş Ortaklığı </a></li>
+              <li><a href="">Yatırımcılar </a></li>
+            </ul>
+          </div>
+          <div class="srowcol col-3">
+            <ul>
+              <li><a href=""> Koşullar </a></li>
+              <li><a href=""> Gizlilik Politikası</a></li>
+              <li><a href=""> Çerez Ayarları</a></li>
+              <li><a href=""> Site Haritası </a></li>
+              <li><a href=""> Erişilebilirlik beyanı </a></li>
+            </ul>
+          </div>
+          <div class="srowcol col-3" style="justify-content: space-between">
+            <div class="lessonb row-2" style="width: 239px; height: 25px">
+              <a href="#" class="aa"
+                ><i class="fa-solid fa-globe"></i>
+                <h6>Türkçe</h6></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="footerthird d-flex"
+        style="margin-left: 30px; margin-top: 50px"
+      >
+        <div class="footerlogo">
+          <a href=""
+            ><img
+              src="logo/udemy-logo-2.svg"
+              alt=""
+              style="width: 91px; height: 34px"
+          /></a>
+        </div>
+        <div class="footerp">
+          <p style="font-size: 12px; color: #fff">© 2022 Udemy, Inc.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------------------------------------------- -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
