@@ -215,6 +215,41 @@
         display: flex;
         justify-content: space-between;
       }
+
+      /* main */
+      .learningcontent {
+        padding: 1rem;
+        margin-left: 13rem;
+        display: flex;
+        flex-direction: column;
+      }
+      .lch h2 {
+        margin-left: 45px;
+      }
+
+      .lculli ul {
+        list-style-type: none;
+        margin-top: 20px;
+      }
+      .lculli ul li {
+        display: inline;
+      }
+      .lculli ul li a {
+        color: #fff;
+      }
+      .lculli ul li a:hover {
+        color: #fff;
+        border-bottom: 5px solid gray;
+      }
+      .main1 {
+        background-color: black;
+        color: #fff;
+      }
+      .mylearning {
+        position: relative;
+        left: 270px;
+        top: 30px;
+      }
     </style>
   </head>
   <body>
@@ -314,11 +349,33 @@
 
     <!-- main -->
     <section class="main">
-      <div class="main1"></div>
-      <div class="main2"></div>
+      <div class="main1">
+        <div class="learningcontent">
+          <div class="lch"><h2>Öğrenim İçeriğim</h2></div>
+          <div class="lculli">
+            <ul>
+              <li><a href="#" class="mx-3">Tüm Kurslar</a></li>
+              <li><a href="#" class="mx-3"> Listelerim</a></li>
+              <li><a href="#" class="mx-3"> İstek Listesi</a></li>
+              <li><a href="#" class="mx-3"> Arşivlenen</a></li>
+              <li><a href="#" class="mx-3"> Öğrenim Araçları</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="main2" style="height: 360px">
+        <div class="mylearning">
+          <a href=""
+            ><img
+              src="img/mylearning/1.png"
+              alt=""
+              style="width: 250px; height: 280px"
+          /></a>
+        </div>
+      </div>
     </section>
 
-    <div class="footer bg-dark" style="color: #fff">
+    <div class="footer bg-black" style="color: #fff">
       <div class="footerfirst d-flex">
         <div class="row-10">
           <div><h5 style="margin-left: 30px">Bilgilerinizi paylaşın</h5></div>
