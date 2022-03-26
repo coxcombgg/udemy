@@ -1,0 +1,338 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body a {
+  text-decoration: none;
+  color: black;
+}
+/* udemy-header */
+
+.navbar {
+  border-bottom: 1px solid darkgray;
+  margin: 4px;
+  padding: 5px;
+  width: 100%;
+}
+
+.header {
+  margin: 5px;
+  padding: 5px;
+}
+.connect:hover {
+  color: #712b75;
+}
+
+.input-group a {
+  padding: 5px;
+  margin-top: 15px;
+}
+.search-form {
+  margin-left: 6px;
+}
+
+.a-udemy {
+  margin-left: 6px;
+  padding: 9px;
+}
+.icon div {
+  margin-left: 9px;
+}
+.icon .connect {
+  font-size: 20px;
+}
+
+.form-control {
+  border-radius: 16px;
+  width: 500px;
+}
+
+/* main-content */
+
+.main-content {
+  margin-left: 48px;
+}
+.link-bar ul li {
+  display: inline-block;
+}
+.btn-white {
+  background-color: white;
+}
+.btn-white:hover {
+  background-color: #d1d7dc;
+}
+.btn-dark:hover {
+  background-color: transparent;
+}
+.container1 {
+  background-image: url(../udemy/img/bg-woman.jpg);
+  width: 100%;
+  height: 400px;
+}
+.billboard {
+  background-color: #fff;
+  margin: 5px;
+  margin-left: 80px;
+  margin-top: 40px;
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 35px;
+}
+.billboard h1,
+p {
+  padding: 5px;
+}
+.maintontenth-first h5,
+span {
+  padding: 8px;
+}
+.companenthh {
+  margin-left: 40px;
+}
+.companenthh h2 {
+  margin-left: 10px;
+}
+.companenth {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+
+  margin-left: 40px;
+}
+/* test */
+/* .but {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 0px;
+    border: 1px solid #d1d7dc;
+  }
+  .but:hover {
+    background-color: #d1d7dc;
+    border-radius: 0px;
+  } */
+/* 
+  .a {
+    border: 1px solid #d1d7dc;
+    padding: 0.8rem 1.6rem;
+    color: #1c1d1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    min-height: 5.6rem;
+  } */
+
+/* a {
+    border: 1px solid #d1d7dc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  } */
+.aa {
+  border: 1px solid #d1d7dc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+}
+
+.lessona {
+  padding: 1rem;
+}
+
+/* footer */
+
+/* .footer .row-2 {
+   display: flex;
+   justify-content: end;
+ } */
+
+.footer {
+  height: 360px;
+}
+
+.footerfirst {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgray;
+}
+/* .lessonb {
+   background-color: black;
+   color: #fff;
+ } */
+.lessonb a {
+  background-color: black;
+  color: #fff;
+}
+.lessonb a:hover {
+  background-color: transparent;
+}
+.footersecond li {
+  list-style-type: none;
+  font-size: 14px;
+}
+.footersecond li a {
+  list-style-type: none;
+  color: #fff;
+}
+.footersecond li a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+.footerthird {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* main */
+.learningcontent {
+  padding: 1rem;
+  margin-left: 13rem;
+  display: flex;
+  flex-direction: column;
+}
+.lch h2 {
+  margin-left: 45px;
+}
+
+.lculli ul {
+  list-style-type: none;
+  margin-top: 20px;
+}
+.lculli ul li {
+  display: inline;
+}
+.lculli ul li a {
+  color: #fff;
+}
+.lculli ul li a:hover {
+  color: #fff;
+  border-bottom: 5px solid gray;
+}
+.main1 {
+  background-color: black;
+  color: #fff;
+}
+.mylearning {
+  position: relative;
+  left: 270px;
+  top: 30px;
+}
+/* udemy-egitim */
+.bg-woman-2 {
+  height: 550px;
+  padding: 3rem;
+}
+.bg-woman-2 img {
+  width: 100%;
+}
+.mainfirst {
+  display: inline-block;
+  position: relative;
+  bottom: 20rem;
+  left: 10rem;
+}
+.aa {
+  background-color: black;
+  color: #fff;
+}
+.aa:hover {
+  background-color: black;
+  color: #fff;
+}
+.mainstart {
+  padding: 4.8rem 2.4rem;
+  text-align: center;
+}
+.mainstartrow {
+  margin-top: 40px;
+}
+.mainstart h2 {
+  text-align: center;
+}
+.col-4 {
+  align-items: center;
+}
+.maintwo {
+  background: #5624d0;
+  color: #fff;
+  padding: 3rem;
+}
+.numbers {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.how-container {
+  margin-top: 30px;
+}
+.how {
+  padding: 4.8rem 2.4rem;
+  text-align: center;
+}
+.how3h {
+  justify-content: space-evenly;
+  border-bottom: 2px solid #1c1d1f;
+}
+.how3h a:hover {
+  color: black;
+}
+.how-content {
+  padding-top: 5rem;
+}
+.howp {
+  text-align: left;
+  padding: 60px;
+}
+.udemypeople {
+  display: flex;
+  justify-content: center;
+}
+.udemyteam {
+  background-color: #f7f9fa;
+}
+.alone {
+  margin-top: 12rem;
+  margin-bottom: 12rem;
+}
+.aloneconnect {
+  color: #5624d0;
+  text-decoration: underline;
+}
+.last {
+  background-color: #f7f9fa;
+}
+.teach {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 4rem;
+}
+.aaa {
+  background-color: black;
+  color: #fff;
+}
+.aaa:hover {
+  background-color: black;
+  color: #fff;
+}
+.ac {
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+}
+.secondrow {
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+}

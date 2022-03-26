@@ -1,0 +1,111 @@
+#header {
+  display: inline-block;
+  width: 100%;
+}
+.top-navigation {
+  border: 1px solid #b2b2b2;
+}
+.business-header {
+  display: flex;
+  padding: 10px;
+  width: 100%;
+}
+.udemy-logo-2 {
+  margin-top: 10px;
+  margin-left: 160px;
+}
+.ubnavigation {
+  margin-left: 40px;
+  margin-top: 6px;
+}
+.ubnavigation ul {
+  width: 100%;
+  float: left;
+  list-style: none;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 45px;
+  text-decoration: none;
+}
+.ubnavigation ul li {
+  display: inline-block;
+}
+.a4 {
+  color: black;
+}
+.a44 {
+  background-color: black;
+  text-align: center;
+  padding: 4px;
+}
+.a44:hover {
+  background-color: #5022c3;
+  text-align: center;
+  padding: 4px;
+}
+.a444 {
+  color: white;
+}
+.a444:hover {
+  color: white;
+}
+/* main */
+
+.dm-content {
+  height: 600px;
+}
+
+.sc-content {
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.sc-content-a,
+.sc-content-b {
+  padding: 3rem;
+}
+/* footer */
+.footer-div1 {
+  padding: 10px;
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+}
+.footer-div2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px;
+}
+.fa-brands {
+  font-size: 25px;
+  color: #fff;
+}
+.fa-brands:hover {
+  font-size: 25px;
+  color: #5022c3;
+}
+.qul {
+  list-style-type: none;
+}
+.qul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.qul li a:hover {
+  text-decoration: none;
+  color: #5022c3;
+}
+footer {
+  background-color: black;
+  width: 100%;
+}
+.qulsocial {
+  display: block;
+  list-style: none;
+}
+.qulsocial li {
+  display: inline;
+  position: relative;
+}
