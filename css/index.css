@@ -24,6 +24,10 @@ body a {
 .connect:hover {
   color: #712b75;
 }
+.bar-link {
+  display: flex;
+  justify-content: center;
+}
 
 .input-group a {
   padding: 5px;
@@ -49,10 +53,14 @@ body a {
 }
 
 /* main-content */
-
-.main-content {
-  margin-left: 48px;
+.myname {
+  padding: 1rem;
 }
+.mynameimg {
+  width: 532px;
+  height: 169px;
+}
+
 .link-bar ul li {
   display: inline-block;
 }
@@ -84,6 +92,9 @@ body a {
 .billboard h1,
 p {
   padding: 5px;
+}
+.maincontenth {
+  padding: 6px;
 }
 .maintontenth-first h5,
 span {
